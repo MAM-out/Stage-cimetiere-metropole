@@ -1,0 +1,52 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+   <!-- Accueil -->
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h4 ><b>Bienvenue sur l'interface de gestion des cartes d'accès aux cimetières d'Amiens.</b>
+      </h4>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row ">
+  <div class="card m-1 card-w mx-auto" >
+    <div class="card-body">
+
+       <div class="row  text-center">
+        <div class="col">
+          <h5 >AUTHENTIFICATION</h5>    
+        </div>
+      </div>
+
+      <form action="" method="#" >
+
+        <div class="row " >
+          <div class="col text-center">
+              <div class="form-group "> 
+                <input type="text" class="form-control text-center" placeholder="Domaine | Nom d'utilisateur"> 
+              </div> 
+              <div class="form-group "> 
+                <input type="text" class="form-control text-center" placeholder="Email"> 
+              </div> 
+              
+          </div>     
+        </div>
+
+        <div class="row  text-center">
+          <div class="col mb-3">
+            <a class="btn btn-primary  btn-lg" href="#">VALIDER</a>
+          </div>
+        </div>
+
+      </form> 
+
+    </div>  
+  </div>
+</div>
+{% endblock %}
+
